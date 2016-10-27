@@ -1,9 +1,0 @@
-#Задача 5. Вариант 15.
-#Напишите программу, которая бы при запуске случайным образом отображала название одного из двенадцати городов, входящих в Золотое кольцо России.
-#Кравченко А.А.
-#28.04.2016
-
-import random
-cities=["Sergiev-Posad","Pereslavl-Zalesskii","Rostov","Yaroslavl", "Kostroma", "Ivanovo", "Suzdal", "Vladimir"]
-c=random.choice(cities)
-print(c)
