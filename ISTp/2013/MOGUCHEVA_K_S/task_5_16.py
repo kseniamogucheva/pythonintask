@@ -15,7 +15,7 @@ muzi = ['Каллиопа',
 		'Терпсихора',
 		'Клио',
 		'Урания']
-muz = random.choice(muzi)
+random_muz = random.choice(muzi)
 print('Программа случайным образом отображает имя одной из девяти муз в древнегреческой мифологии.')
-print(muz)
+print('Древнегреческая муза: ', random_muz)
 input("\n\nHaжмитe Enter. чтобы выйти.")
